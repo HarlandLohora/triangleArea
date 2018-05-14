@@ -2,29 +2,42 @@
 <html>
 <head>
 	<title>Triangle Area</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<h1>Triangle &#9651;rea</h1>
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m6 l6">
-				CANVAS
-			</div>
-			<div class="col s12 m6 l6">
-				BUTTONS
+	<section id="one">
+		<h1>Triangle <span id="triangle">&#9651;</span>rea</h1>
+	</section>
+		
+	<section id="two">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m6 l6">
+					<canvas id="canvas" width="300px" height="250px" style="border:1px black solid"></canvas>
+				</div>
+				<div class="col s12 m6 l6">
+					<label for="base">Base</label>
+					<input type="number" name="base">
+					<label for="altura">Height</label>
+					<input type="number" name="altura">
+					<button class="btn waves-effect waves-light center" onclick="calculate()">Calculate
+				  	</button>	 
+				</div>
 			</div>
 		</div>
-	</div>	 
+		
+		
+	</section>
+	<section id="three">
+		<footer>
+			<span>Developed with <span id="heart">❤</span> by <a href="#">Harland Lohora</a></span>
+		</footer>
+	</section>
+	
 
-
-
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

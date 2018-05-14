@@ -1,4 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+
 h1{
 	font-family: 'IBM Plex Mono', monospace;
 	text-align: center;
+}
+
+footer{
+	margin-bottom: 0%;
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+}
+#heart{
+	color: red;
+}
+
+#triangle{
+	color: #90caf9;
+}
+#one{
+	font-size: 2em;
+	margin-top: 5%;
+}
+#two{
+ 
+
+}
+#three{
+
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+input{
+	padding: 16px;
 }
