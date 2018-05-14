@@ -41,3 +41,6 @@ a{
 input{
 	padding: 16px;
 }
+#none{
+	display: none;
+}
